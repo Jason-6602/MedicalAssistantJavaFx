@@ -1,0 +1,23 @@
+.root {
+    -fx-background-color: #f4f4f4;
+}
+
+.stack-pane {
+    -fx-alignment: CENTER;
+}
+
+.label-title {
+    -fx-text-fill: #cc0000;
+    -fx-font-size: 24px;
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-min-height: 40px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
