@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@doctorreviewstyles.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DoctorReviewController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@doctorreviewstyles.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.medicalassistantjavafx.DoctorReviewController">
     <children>
         <Label layoutX="237.0" layoutY="4.0" text="Doctor Review Form">
             <font>
