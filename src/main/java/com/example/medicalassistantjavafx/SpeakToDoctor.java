@@ -10,7 +10,7 @@ public class SpeakToDoctor {
 
     @FXML
     private TextField SymptomsField;
-
+@FXML
    private TextField DiagnosticField;
 
     @FXML
