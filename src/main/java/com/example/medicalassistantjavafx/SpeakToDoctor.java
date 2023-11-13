@@ -19,6 +19,7 @@ public class SpeakToDoctor {
         String Symptoms = SymptomsField.getText().trim();
         String Diagnostic = DiagnosticField.getText().trim();
 
+
         // Reason for Visit and Symptoms variable
     }
 }
