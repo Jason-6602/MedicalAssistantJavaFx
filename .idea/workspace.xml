@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98184891-a0e5-4902-a4aa-5687c914c855" name="Changes" comment="Implement fields for reasonForVisit and Symptoms">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/medicalassistantjavafx/SpeakToDoctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/medicalassistantjavafx/SpeakToDoctor.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="98184891-a0e5-4902-a4aa-5687c914c855" name="Changes" comment="Link FXML file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +126,31 @@
       <option name="project" value="LOCAL" />
       <updated>1699412539682</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implement fields for reasonForVisit and Symptoms">
+      <option name="closed" value="true" />
+      <created>1699918976066</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699918976066</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create Diagonstic field">
+      <option name="closed" value="true" />
+      <created>1699919017532</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699919017532</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Link FXML file">
+      <option name="closed" value="true" />
+      <created>1699919139242</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699919139242</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,6 +158,8 @@
     <MESSAGE value="-" />
     <MESSAGE value="Create branch for speaktodoctor" />
     <MESSAGE value="Implement fields for reasonForVisit and Symptoms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement fields for reasonForVisit and Symptoms" />
+    <MESSAGE value="Create Diagonstic field" />
+    <MESSAGE value="Link FXML file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Link FXML file" />
   </component>
 </project>
