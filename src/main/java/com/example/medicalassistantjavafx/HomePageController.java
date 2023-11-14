@@ -16,6 +16,9 @@ public class HomePageController {
     private Button doctorreview;
 
     @FXML
+    private Button calendar;
+
+    @FXML
     private void handleDoctorReviewButtonClick(ActionEvent event) {
         try {
             // Load the DoctorReview.fxml file
@@ -43,6 +46,35 @@ public class HomePageController {
             // Handle the exception appropriately
         }
     }
+
+    @FXML
+    private void handleCalendarReviewButtonClick(ActionEvent event) {
+        try {
+            // Load the Calendar.fxml file
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Calendar.fxml"));
+            Parent root = loader.load();
+
+            // Get the controller for the CalendarReview.fxml file
+            CalendarController calendarController = loader.getController();
+
+            // Set up the scene
+            Scene scene = new Scene(root, 600, 400);
+
+            // Create a new stage for Calendar Page
+            Stage calendarStage = new Stage();
+            calendarStage.setTitle("Calendar Review");
+            calendarStage.setScene(scene);
+
+            // Show the calendar stage
+            calendarStage.show();
+
+        }   catch (IOException e) {
+            e.printStackTrace();
+            // Handle the exception appropriately
+        }
+    }
+
+
 
 
 }

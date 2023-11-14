@@ -1,5 +1,7 @@
+/* NOTE: THIS IS FOR THE HOME PAGE */
+
 .root {
-    -fx-background-color: #f4f4f4;
+    -fx-background-color: linear-gradient(to bottom, #fc83ca, white);
 }
 
 .stack-pane {
@@ -8,16 +10,16 @@
 
 .label-title {
     -fx-text-fill: #cc0000;
-    -fx-font-size: 24px;
+    -fx-font-size: 48px;
 }
 
 .button {
     -fx-font-size: 16px;
-    -fx-background-color: #4CAF50;
+    -fx-background-color: salmon;
     -fx-text-fill: white;
     -fx-min-height: 40px;
 }
 
 .button:hover {
-    -fx-background-color: #45a049;
+    -fx-background-color: #ff69a2;
 }

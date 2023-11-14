@@ -1,31 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="555.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.medicalassistantjavafx.HomePageController">
+<AnchorPane prefHeight="555.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.medicalassistantjavafx.HomePageController">
    <children>
       <StackPane />
-      <VBox alignment="CENTER" layoutX="200.0" layoutY="155.0" spacing="20">
-         <Button fx:id="profile" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" styleClass="button" text="Profile" />
-         <Button fx:id="calendar" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" styleClass="button" text="Calendar" />
-         <Button fx:id="prescription" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" styleClass="button" text="E-Prescription" />
-      </VBox>
-      <Label layoutX="164.0" layoutY="7.0" styleClass="label-title" text="Medical Assistant">
+      <Label alignment="TOP_CENTER" layoutX="116.0" layoutY="14.0" styleClass="label-title" text="Medical Assistant">
          <font>
-            <Font name="Franklin Gothic Medium" size="36.0" />
+            <Font name="Candara Light" size="48.0" />
          </font>
       </Label>
-
-      <!-- Added TextField for doctor's name input -->
-      <TextField fx:id="doctorNameField" layoutX="200.0" layoutY="300.0" promptText="Enter doctor's name" visible="false" />
-
-      <!-- Added Label for displaying rating result -->
-      <Label fx:id="ratingResultLabel" layoutX="200.0" layoutY="350.0" styleClass="label-result" visible="false" />
-
-      <Button fx:id="doctorreview" layoutX="200.0" layoutY="388.0" mnemonicParsing="false" onAction="#handleDoctorReviewButtonClick" prefHeight="40.0" prefWidth="200.0" styleClass="button" text="Doctor Review" />
-
-      <Button fx:id="speaktodoctor" layoutX="200.0" layoutY="330.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" styleClass="button" text="Speak to Doctor" />
+      <VBox alignment="CENTER" layoutX="200.0" layoutY="138.0" spacing="20">
+         <Button fx:id="profile" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" styleClass="button" text="Profile" />
+         <Button fx:id="calendar" mnemonicParsing="false" onAction="#handleCalendarReviewButtonClick" prefHeight="40.0" prefWidth="200.0" styleClass="button" text="Calendar" />
+         <Button fx:id="prescription" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" styleClass="button" text="E-Prescription" />
+   
+            <Button fx:id="doctorreview" mnemonicParsing="false" onAction="#handleDoctorReviewButtonClick" prefHeight="40.0" prefWidth="200.0" styleClass="button" text="Doctor Review" />
+   
+         <Button fx:id="speaktodoctor" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" styleClass="button" text="Speak to Doctor" />
+      </VBox>
    </children>
 </AnchorPane>

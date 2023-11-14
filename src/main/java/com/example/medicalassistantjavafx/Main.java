@@ -16,7 +16,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("HomePage.fxml")));
 
         // Set up the scene
-        Scene scene = new Scene(root, 600, 400);
+        Scene scene = new Scene(root, 600, 550);
 
         // Set up the stage
         primaryStage.setTitle("Medical Assistant Home");
