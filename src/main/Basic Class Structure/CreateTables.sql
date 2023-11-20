@@ -1,0 +1,15 @@
+CREATE DATABASE csc325;
+
+CREATE TABLE doctor_reviews (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    doctor_name VARCHAR(255) NOT NULL,
+    experience TEXT NOT NULL
+);
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
