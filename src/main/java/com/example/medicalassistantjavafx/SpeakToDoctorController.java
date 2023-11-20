@@ -21,7 +21,7 @@ public class SpeakToDoctorController {
         this.primaryStage = primaryStage;
     }
     @FXML
-    protected void handleButtonClick(ActionEvent event) {
+    private void scheduleappointment(ActionEvent event) {
         // Patient information
         String firstName = firstNameField.getText();
         String lastName = lastNameField.getText();

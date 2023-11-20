@@ -15,7 +15,7 @@
     <Label text="Reason For Visit" />
     <TextField fx:id="lastNameField" />
 
-    <Button onAction="#handleButtonClick" prefHeight="92.0" prefWidth="157.0" text="Schedule Appointment" />
+    <Button onAction="#scheduleappointment" prefHeight="92.0" prefWidth="157.0" text="Schedule Appointment" />
    <AnchorPane prefHeight="405.0" prefWidth="710.0">
       <children>
          <Label layoutX="57.0" layoutY="76.0" prefHeight="39.0" prefWidth="104.0" text="First Name:">
