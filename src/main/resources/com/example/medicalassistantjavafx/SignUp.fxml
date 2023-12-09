@@ -5,27 +5,21 @@
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="341.0" prefWidth="389.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.medicalassistantjavafx.SignUpController">
+<AnchorPane prefHeight="555.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.medicalassistantjavafx.SignUpController">
 
-    <Label layoutX="174.0" layoutY="27.0" text="Sign Up" />
+    <Label layoutX="269.0" layoutY="138.0" text="Sign Up">
+        <font>
+            <Font size="18.0" />
+        </font></Label>
+    <TextField fx:id="firstNameField" layoutX="226.0" layoutY="190.0" promptText="First Name" />
+    <TextField fx:id="lastNameField" layoutX="226.0" layoutY="241.0" promptText="Last Name" />
+    <TextField fx:id="emailField" layoutX="226.0" layoutY="288.0" promptText="Email" />
+    <PasswordField fx:id="passwordField" layoutX="226.0" layoutY="337.0" promptText="Password" />
+    <PasswordField fx:id="confirmPasswordField" layoutX="226.0" layoutY="389.0" promptText="Confirm Password" />
 
-    <Label layoutX="40" layoutY="60" text="First Name:" />
-    <TextField fx:id="firstNameField" layoutX="130" layoutY="60" />
-
-    <Label layoutX="40" layoutY="100" text="Last Name:" />
-    <TextField fx:id="lastNameField" layoutX="130" layoutY="100" />
-
-    <Label layoutX="40" layoutY="140" text="Email:" />
-    <TextField fx:id="emailField" layoutX="130" layoutY="140" />
-
-    <Label layoutX="40" layoutY="180" text="Password:" />
-    <PasswordField fx:id="passwordField" layoutX="130" layoutY="180" />
-
-    <Label layoutX="20" layoutY="220" text="Confirm Password:" />
-    <PasswordField fx:id="confirmPasswordField" layoutX="130" layoutY="220" />
-
-    <Button layoutX="166.0" layoutY="259.0" onAction="#handleSignup" text="Sign Up" />
+    <Button layoutX="261.0" layoutY="453.0" onAction="#handleSignup" text="Sign Up" />
 
     <Label fx:id="infoLabel" layoutX="40" layoutY="300" />
 

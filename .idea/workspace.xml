@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98184891-a0e5-4902-a4aa-5687c914c855" name="Changes" comment="SpeakToDoctorController">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/medicalassistantjavafx/SpeakToDoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/medicalassistantjavafx/SpeakToDoctorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SpeakToDoctor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SpeakToDoctor.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/medicalassistantjavafx/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/medicalassistantjavafx/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/medicalassistantjavafx/CalendarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/medicalassistantjavafx/CalendarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/medicalassistantjavafx/Calendar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/medicalassistantjavafx/Calendar.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/medicalassistantjavafx/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/medicalassistantjavafx/HomePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/medicalassistantjavafx/SignUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/medicalassistantjavafx/SignUp.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Program Files/Java/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/lib",
+    "last_opened_file_path": "C:/Users/vasqu/Java/javax.mail.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
